@@ -15,6 +15,11 @@ Custom schematic and layout work in Cadence Virtuoso, organized around a reusabl
 
 **Focus:** custom digital design, hierarchical layout, standard-cell interfaces.
 
+### [RISC-V Operating System Kernel](https://github.com/Ayush-Jain27/riscv-kernel)
+A documentation-only technical showcase explaining interrupt handling, device I/O, synchronization, and storage in a RISC-V operating-system project. Includes conceptual architecture diagrams, attribution, and explicit verification boundaries; the original kernel source remains unpublished.
+
+**Focus:** RISC-V systems, device drivers, concurrency, filesystem reasoning.
+
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
 An eight-lane SIMT GPU core written in SystemVerilog. A processor-design project exploring parallel execution at the RTL level.
 
