@@ -2,6 +2,8 @@
 
 **Digital design · Computer architecture · Embedded systems**
 
+<img src="assets/profile-accent.svg" alt="Minimal circuit trace accent" width="600" height="36">
+
 I'm interested in how computers work at every level, from the transistors in a datapath to the software that talks to a device. My projects span custom circuit design, processor RTL, FPGA systems, and low-level C.
 
 I'm studying Computer Science and Astronomy at the University of Illinois Urbana-Champaign, with a minor in Electrical and Computer Engineering.
@@ -10,7 +12,7 @@ I'm studying Computer Science and Astronomy at the University of Illinois Urbana
 
 [Portfolio](https://ayush-jain.dev) · [Repositories](https://github.com/Ayush-Jain27?tab=repositories)
 
-## 🛠️ What I'm building
+## What I'm building
 
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
 **In progress · SystemVerilog · Computer architecture**
@@ -19,7 +21,7 @@ I'm building an eight-lane SIMT GPU to get hands-on with parallel processor desi
 
 The next goals are stronger verification, multi-warp execution, and FPGA bring-up. Hardware results and performance measurements are still ahead.
 
-## 📂 Project showcases
+## Project showcases
 
 ### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
 **Documentation showcase · Custom digital design**
