@@ -10,33 +10,39 @@ I study Computer Science and Astronomy at the University of Illinois Urbana-Cham
 
 [Portfolio](https://ayush-jain.dev) · [Explore my repositories](https://github.com/Ayush-Jain27?tab=repositories)
 
-## Selected work
-
-### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
-**Transistor-level design → physical integration**
-
-Designed custom schematics and layouts in Cadence Virtuoso for a bit-sliced datapath, including register-file, arithmetic, comparison, and selection structures. Worked on integrating custom blocks with synthesized logic through timing and physical interfaces.
-
-The public showcase documents my implementation and physical-design work, distinguishes supplied processor infrastructure, and describes the available verification evidence.
+## In progress
 
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
-**Parallel architecture → SystemVerilog RTL**
+**Processor development · SystemVerilog · Eight-lane SIMT architecture**
 
-An eight-lane SIMT GPU core written in SystemVerilog, exploring how multiple execution lanes fit within a processor architecture.
+Building an eight-lane GPU core to explore parallel execution and the hardware behind throughput-oriented computing. The project connects instruction execution, per-lane computation, and shared control in a custom RTL architecture.
+
+**Development direction:** verification, multi-warp execution, and FPGA bring-up. These are ongoing goals; completed hardware deployment and performance results are not claimed.
+
+## Engineering showcases
+
+Selected implementation work presented through source, design explanations, and technical documentation. Each repository describes its own scope and available verification evidence.
+
+### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
+**Custom digital design · Documentation showcase**
+
+Designed transistor-level schematics and layouts in Cadence Virtuoso for a bit-sliced datapath, including register-file, arithmetic, comparison, and selection structures. Worked on physical integration between custom blocks and synthesized logic.
+
+The public showcase traces the design from reusable cells to datapath integration, with original diagrams, contribution boundaries, and verification notes. Native design databases and supplied processor infrastructure are excluded.
 
 ### [FPGA Audio Synthesizer & Visualizer](https://github.com/Ayush-Jain27/Real-Time-Audio-Synthesizer)
-**Streaming audio → hardware effects → HDMI visualization**
+**FPGA system integration · Implementation showcase**
 
-Co-developed an FPGA system combining microphone capture, audio effects, BRAM recording and looping, and HDMI visualization. The design separates the hardware audio pipeline from MicroBlaze-based control and interface state.
+Co-developed an FPGA audio system combining microphone capture, hardware effects, BRAM recording and looping, and HDMI visualization. The architecture separates the streaming audio datapath from MicroBlaze-based control and interface state.
 
-Built with Alen Mathew Daniel.
+The repository presents the implementation and explains how audio, memory, control, and video fit together. Built with Alen Mathew Daniel.
 
 ### [RISC-V Kernel Showcase](https://github.com/Ayush-Jain27/riscv-kernel)
-**Interrupts → device I/O → synchronization → storage**
+**Low-level systems · Documentation showcase**
 
-A documentation-only walkthrough of a RISC-V operating-system project, covering UART, PLIC, RTC, VirtIO RNG and block devices, condition variables, reader–writer locks, and NGFS.
+A technical walkthrough of RISC-V kernel engineering: interrupt routing, device drivers, asynchronous I/O, synchronization, and persistent storage. Topics include UART, PLIC, RTC, VirtIO RNG and block devices, condition variables, reader–writer locks, and NGFS.
 
-The public material explains interfaces and failure modes through conceptual diagrams and technical notes. Kernel source is unpublished; the showcase does not claim a reproducible build or verified runtime results.
+Original documentation and conceptual diagrams explain interface contracts, request lifetimes, and concurrency failure modes. The public repository contains explanatory material; the underlying kernel source is unpublished, and runtime validation is not established by the showcase.
 
 ## Technical toolkit
 
