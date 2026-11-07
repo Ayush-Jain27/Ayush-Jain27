@@ -2,54 +2,50 @@
 
 **Digital design · Computer architecture · Embedded systems**
 
-I build across the hardware–software boundary: transistor-level datapaths, parallel processor RTL, FPGA audio pipelines, and low-level systems software.
+I'm interested in how computers work at every level, from the transistors in a datapath to the software that talks to a device. My projects span custom circuit design, processor RTL, FPGA systems, and low-level C.
 
-I study Computer Science and Astronomy at the University of Illinois Urbana-Champaign, with a minor in Electrical and Computer Engineering. My interests center on how processors and embedded systems work—from the circuits that hold state to the software that controls devices.
+I'm studying Computer Science and Astronomy at the University of Illinois Urbana-Champaign, with a minor in Electrical and Computer Engineering.
 
-**Seeking internship and co-op opportunities in digital design, ASIC/SoC development, FPGA engineering, and embedded systems.**
+**I'm looking for internship and co-op opportunities in digital design, ASIC/SoC development, FPGA engineering, and embedded systems.**
 
-[Portfolio](https://ayush-jain.dev) · [Explore my repositories](https://github.com/Ayush-Jain27?tab=repositories)
+[Portfolio](https://ayush-jain.dev) · [Repositories](https://github.com/Ayush-Jain27?tab=repositories)
 
-## In progress
+## What I'm building
 
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
-**Processor development · SystemVerilog · Eight-lane SIMT architecture**
+**In progress · SystemVerilog · Computer architecture**
 
-Building an eight-lane GPU core to explore parallel execution and the hardware behind throughput-oriented computing. The project connects instruction execution, per-lane computation, and shared control in a custom RTL architecture.
+I'm building an eight-lane SIMT GPU to get hands-on with parallel processor design. The core brings together shared instruction control and per-lane computation in SystemVerilog.
 
-**Development direction:** verification, multi-warp execution, and FPGA bring-up. These are ongoing goals; completed hardware deployment and performance results are not claimed.
+The next goals are stronger verification, multi-warp execution, and FPGA bring-up. Hardware results and performance measurements are still ahead.
 
-## Engineering showcases
-
-Selected implementation work presented through source, design explanations, and technical documentation. Each repository describes its own scope and available verification evidence.
+## Project showcases
 
 ### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
-**Custom digital design · Documentation showcase**
+**Documentation showcase · Custom digital design**
 
-Designed transistor-level schematics and layouts in Cadence Virtuoso for a bit-sliced datapath, including register-file, arithmetic, comparison, and selection structures. Worked on physical integration between custom blocks and synthesized logic.
+I designed transistor-level schematics and layouts for a bit-sliced datapath in Cadence Virtuoso, including register-file, arithmetic, comparison, and selection blocks. I also worked on bringing custom blocks and synthesized logic together in the physical-design flow.
 
-The public showcase traces the design from reusable cells to datapath integration, with original diagrams, contribution boundaries, and verification notes. Native design databases and supplied processor infrastructure are excluded.
+The showcase follows that work from individual cells to datapath integration, using original diagrams and design notes. It explains my contributions, identifies supplied infrastructure, and records the available verification evidence. Native design files are not published.
 
 ### [FPGA Audio Synthesizer & Visualizer](https://github.com/Ayush-Jain27/Real-Time-Audio-Synthesizer)
-**FPGA system integration · Implementation showcase**
+**Implementation showcase · FPGA design**
 
-Co-developed an FPGA audio system combining microphone capture, hardware effects, BRAM recording and looping, and HDMI visualization. The architecture separates the streaming audio datapath from MicroBlaze-based control and interface state.
+Alen Mathew Daniel and I built an FPGA audio system with microphone input, hardware effects, BRAM recording and looping, and HDMI visualization. Audio processing runs in hardware, while MicroBlaze handles control and interface state.
 
-The repository presents the implementation and explains how audio, memory, control, and video fit together. Built with Alen Mathew Daniel.
+The repository includes the implementation and a walkthrough of the audio, memory, and video paths.
 
 ### [RISC-V Kernel Showcase](https://github.com/Ayush-Jain27/riscv-kernel)
-**Low-level systems · Documentation showcase**
+**Documentation showcase · Systems programming**
 
-A technical walkthrough of RISC-V kernel engineering: interrupt routing, device drivers, asynchronous I/O, synchronization, and persistent storage. Topics include UART, PLIC, RTC, VirtIO RNG and block devices, condition variables, reader–writer locks, and NGFS.
+This showcase looks at how a RISC-V kernel handles devices, interrupts, concurrent access, and storage. It covers UART, PLIC, RTC, VirtIO RNG and block drivers, condition variables, reader-writer locks, and NGFS.
 
-Original documentation and conceptual diagrams explain interface contracts, request lifetimes, and concurrency failure modes. The public repository contains explanatory material; the underlying kernel source is unpublished, and runtime validation is not established by the showcase.
+The diagrams and notes focus on practical questions: who owns an I/O buffer, when a waiting thread can wake up, and how a device request reaches completion. The underlying source is unpublished. This repository explains the design; it does not provide a buildable kernel or verified runtime results.
 
-## Technical toolkit
+## Tools I work with
 
-| Focus | Languages and tools |
+| Area | Languages and tools |
 | --- | --- |
-| RTL and FPGA development | SystemVerilog, Verilog, Vivado, MicroBlaze |
+| RTL and FPGA design | SystemVerilog, Verilog, Vivado, MicroBlaze |
 | Custom and physical design | Cadence Virtuoso, Innovus, Synopsys Design Compiler, Calibre, SPICE |
 | Systems programming | C, C++, Python, RISC-V assembly, Linux, GDB, Git |
-
-I am drawn to engineering questions that connect these layers: where state belongs, how data moves, and how hardware and software agree on an interface.
