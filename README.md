@@ -17,32 +17,24 @@ I'm studying Computer Science and Astronomy at the University of Illinois Urbana
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
 **In progress · SystemVerilog · Computer architecture**
 
-I'm building an eight-lane SIMT GPU to get hands-on with parallel processor design. The core brings together shared instruction control and per-lane computation in SystemVerilog.
-
-The next goals are stronger verification, multi-warp execution, and FPGA bring-up. Hardware results and performance measurements are still ahead.
+An eight-lane SIMT GPU project in SystemVerilog, starting with signed INT8 multiply-accumulate lanes and a 32-bit ALU. The arithmetic datapath forms the foundation for instruction execution and parallel compute kernels.
 
 ## Project showcases
 
 ### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
 **Documentation showcase · Custom digital design**
 
-I designed transistor-level schematics and layouts for a bit-sliced datapath in Cadence Virtuoso, including register-file, arithmetic, comparison, and selection blocks. I also worked on bringing custom blocks and synthesized logic together in the physical-design flow.
-
-The showcase follows that work from individual cells to datapath integration, using original diagrams and design notes. It explains my contributions, identifies supplied infrastructure, and records the available verification evidence. Native design files are not published.
+A 32-bit RISC-V datapath built from custom transistor-level cells and repeated bit slices in Cadence Virtuoso. The design combines register-file, arithmetic, comparison, and selection blocks, with a physical-design flow connecting custom layouts to synthesized logic.
 
 ### [FPGA Audio Synthesizer & Visualizer](https://github.com/Ayush-Jain27/Real-Time-Audio-Synthesizer)
 **Implementation showcase · FPGA design**
 
-Alen Mathew Daniel and I built an FPGA audio system with microphone input, hardware effects, BRAM recording and looping, and HDMI visualization. Audio processing runs in hardware, while MicroBlaze handles control and interface state.
-
-The repository includes the implementation and a walkthrough of the audio, memory, and video paths.
+An FPGA audio system with microphone input, ring modulation, distortion, bit-crushing, and BRAM recording and looping. Audio processing runs in hardware, with MicroBlaze handling control and HDMI visualization showing the system's state.
 
 ### [RISC-V Kernel Showcase](https://github.com/Ayush-Jain27/riscv-kernel)
 **Documentation showcase · Systems programming**
 
-This showcase looks at how a RISC-V kernel handles devices, interrupts, concurrent access, and storage. It covers UART, PLIC, RTC, VirtIO RNG and block drivers, condition variables, reader-writer locks, and NGFS.
-
-The diagrams and notes focus on practical questions: who owns an I/O buffer, when a waiting thread can wake up, and how a device request reaches completion. The underlying source is unpublished. This repository explains the design; it does not provide a buildable kernel or verified runtime results.
+A RISC-V kernel project covering interrupt handling, device I/O, synchronization, and persistent storage. The technical walkthrough connects UART, PLIC, RTC, VirtIO drivers, condition variables, reader-writer locks, and NGFS through diagrams and design notes.
 
 ## Tools I work with
 
