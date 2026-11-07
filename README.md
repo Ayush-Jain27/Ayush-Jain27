@@ -10,7 +10,7 @@ I'm studying Computer Science and Astronomy at the University of Illinois Urbana
 
 [Portfolio](https://ayush-jain.dev) · [Repositories](https://github.com/Ayush-Jain27?tab=repositories)
 
-## What I'm building
+## 🛠️ What I'm building
 
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
 **In progress · SystemVerilog · Computer architecture**
@@ -19,7 +19,7 @@ I'm building an eight-lane SIMT GPU to get hands-on with parallel processor desi
 
 The next goals are stronger verification, multi-warp execution, and FPGA bring-up. Hardware results and performance measurements are still ahead.
 
-## Project showcases
+## 📂 Project showcases
 
 ### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
 **Documentation showcase · Custom digital design**
