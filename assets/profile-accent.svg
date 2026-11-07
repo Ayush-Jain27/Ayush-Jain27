@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="36" viewBox="0 0 600 36" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Minimal circuit trace accent</title>
+  <g stroke="#8B949E" stroke-opacity=".4" stroke-width="1.25">
+    <path d="M2 18H128L140 6H212L224 18H598"/>
+    <path d="M92 18L104 30H176L188 18"/>
+    <path d="M392 18L404 6H460"/>
+  </g>
+  <g stroke="#2A9D8F" stroke-width="1.5">
+    <circle cx="2" cy="18" r="1.25" fill="#2A9D8F"/>
+    <circle cx="224" cy="18" r="3" fill="#2A9D8F"/>
+    <circle cx="460" cy="6" r="2.5"/>
+    <circle cx="598" cy="18" r="1.25" fill="#2A9D8F"/>
+  </g>
+</svg>
