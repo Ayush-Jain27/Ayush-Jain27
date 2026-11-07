@@ -1,41 +1,49 @@
 # Ayush Jain
 
-**Digital hardware · Computer architecture · Embedded systems**
+**Digital design · Computer architecture · Embedded systems**
 
-I study Computer Science and Astronomy at the University of Illinois Urbana-Champaign, with a minor in Electrical and Computer Engineering. I build across the hardware/software boundary—from transistor-level datapaths and FPGA signal processing to RTL processor design.
+I build across the hardware–software boundary: transistor-level datapaths, parallel processor RTL, FPGA audio pipelines, and low-level systems software.
 
-I am interested in internship and co-op opportunities in digital design, ASIC/SoC development, FPGA engineering, and embedded systems.
+I study Computer Science and Astronomy at the University of Illinois Urbana-Champaign, with a minor in Electrical and Computer Engineering. My interests center on how processors and embedded systems work—from the circuits that hold state to the software that controls devices.
 
-[Portfolio](https://ayush-jain.dev) · [GitHub projects](https://github.com/Ayush-Jain27?tab=repositories)
+**Seeking internship and co-op opportunities in digital design, ASIC/SoC development, FPGA engineering, and embedded systems.**
 
-## Selected projects
+[Portfolio](https://ayush-jain.dev) · [Explore my repositories](https://github.com/Ayush-Jain27?tab=repositories)
+
+## Selected work
 
 ### [RISC-V Datapath](https://github.com/Ayush-Jain27/riscv-datapath)
-Custom schematic and layout work in Cadence Virtuoso, organized around a reusable bit slice. The technical showcase covers the cell hierarchy, datapath construction, physical integration, and available verification evidence.
+**Transistor-level design → physical integration**
 
-**Focus:** custom digital design, hierarchical layout, standard-cell interfaces.
+Designed custom schematics and layouts in Cadence Virtuoso for a bit-sliced datapath, including register-file, arithmetic, comparison, and selection structures. Worked on integrating custom blocks with synthesized logic through timing and physical interfaces.
 
-### [RISC-V Operating System Kernel](https://github.com/Ayush-Jain27/riscv-kernel)
-A documentation-only technical showcase explaining interrupt handling, device I/O, synchronization, and storage in a RISC-V operating-system project. Includes conceptual architecture diagrams, attribution, and explicit verification boundaries; the original kernel source remains unpublished.
-
-**Focus:** RISC-V systems, device drivers, concurrency, filesystem reasoning.
+The public showcase documents my implementation and physical-design work, distinguishes supplied processor infrastructure, and describes the available verification evidence.
 
 ### [SIMT GPU](https://github.com/Ayush-Jain27/Simt-GPU)
-An eight-lane SIMT GPU core written in SystemVerilog. A processor-design project exploring parallel execution at the RTL level.
+**Parallel architecture → SystemVerilog RTL**
 
-**Focus:** SystemVerilog, parallel architecture, RTL design.
+An eight-lane SIMT GPU core written in SystemVerilog, exploring how multiple execution lanes fit within a processor architecture.
 
-### [FPGA Audio Synthesizer](https://github.com/Ayush-Jain27/Real-Time-Audio-Synthesizer)
-An FPGA audio pipeline with microphone capture, hardware effects, BRAM looping, and HDMI visualization. Audio processing runs in hardware, with MicroBlaze handling control and interface state.
+### [FPGA Audio Synthesizer & Visualizer](https://github.com/Ayush-Jain27/Real-Time-Audio-Synthesizer)
+**Streaming audio → hardware effects → HDMI visualization**
 
-**Focus:** streaming datapaths, FPGA integration, hardware/software partitioning.
+Co-developed an FPGA system combining microphone capture, audio effects, BRAM recording and looping, and HDMI visualization. The design separates the hardware audio pipeline from MicroBlaze-based control and interface state.
 
-## Technical focus
+Built with Alen Mathew Daniel.
 
-| Area | Languages and tools |
-|---|---|
-| Digital design | SystemVerilog, Verilog, Vivado, MicroBlaze |
+### [RISC-V Kernel Showcase](https://github.com/Ayush-Jain27/riscv-kernel)
+**Interrupts → device I/O → synchronization → storage**
+
+A documentation-only walkthrough of a RISC-V operating-system project, covering UART, PLIC, RTC, VirtIO RNG and block devices, condition variables, reader–writer locks, and NGFS.
+
+The public material explains interfaces and failure modes through conceptual diagrams and technical notes. Kernel source is unpublished; the showcase does not claim a reproducible build or verified runtime results.
+
+## Technical toolkit
+
+| Focus | Languages and tools |
+| --- | --- |
+| RTL and FPGA development | SystemVerilog, Verilog, Vivado, MicroBlaze |
 | Custom and physical design | Cadence Virtuoso, Innovus, Synopsys Design Compiler, Calibre, SPICE |
-| Systems software | C, C++, Python, RISC-V assembly, Linux, GDB, Git |
+| Systems programming | C, C++, Python, RISC-V assembly, Linux, GDB, Git |
 
-I am especially interested in how architecture decisions translate into implementation: where state lives, how data moves, and how an interface holds up when it reaches hardware.
+I am drawn to engineering questions that connect these layers: where state belongs, how data moves, and how hardware and software agree on an interface.
